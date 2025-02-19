@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Tarefa-U4C8 Tarefa-U4C8.c )
+add_executable(Tarefa-U4C8 Tarefa-U4C8.c include/ssd1306.c)
 
 pico_set_program_name(Tarefa-U4C8 "Tarefa-U4C8")
 pico_set_program_version(Tarefa-U4C8 "0.1")
